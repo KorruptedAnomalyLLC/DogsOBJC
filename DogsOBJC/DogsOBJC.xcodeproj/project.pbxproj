@@ -12,6 +12,8 @@
 		0C19C0492295DFBC00FCE9E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C0482295DFBC00FCE9E4 /* Assets.xcassets */; };
 		0C19C04C2295DFBC00FCE9E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C04A2295DFBC00FCE9E4 /* LaunchScreen.storyboard */; };
 		0C19C04F2295DFBC00FCE9E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C04E2295DFBC00FCE9E4 /* main.m */; };
+		0C19C0582295E13C00FCE9E4 /* AJWBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C0572295E13C00FCE9E4 /* AJWBreed.m */; };
+		0C19C05B2295E14F00FCE9E4 /* AJWSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C05A2295E14F00FCE9E4 /* AJWSubBreed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		0C19C04B2295DFBC00FCE9E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C19C04D2295DFBC00FCE9E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C19C04E2295DFBC00FCE9E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C19C0562295E13C00FCE9E4 /* AJWBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWBreed.h; sourceTree = "<group>"; };
+		0C19C0572295E13C00FCE9E4 /* AJWBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWBreed.m; sourceTree = "<group>"; };
+		0C19C0592295E14F00FCE9E4 /* AJWSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJWSubBreed.h; sourceTree = "<group>"; };
+		0C19C05A2295E14F00FCE9E4 /* AJWSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJWSubBreed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 				0C19C0552295DFDC00FCE9E4 /* Resources */,
 				0C19C0452295DFBB00FCE9E4 /* Main.storyboard */,
 				0C19C04A2295DFBC00FCE9E4 /* LaunchScreen.storyboard */,
+				0C19C05C2295E15500FCE9E4 /* Models */,
 			);
 			path = DogsOBJC;
 			sourceTree = "<group>";
@@ -72,6 +79,17 @@
 				0C19C04E2295DFBC00FCE9E4 /* main.m */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		0C19C05C2295E15500FCE9E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C0562295E13C00FCE9E4 /* AJWBreed.h */,
+				0C19C0572295E13C00FCE9E4 /* AJWBreed.m */,
+				0C19C0592295E14F00FCE9E4 /* AJWSubBreed.h */,
+				0C19C05A2295E14F00FCE9E4 /* AJWSubBreed.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +164,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C19C04F2295DFBC00FCE9E4 /* main.m in Sources */,
+				0C19C0582295E13C00FCE9E4 /* AJWBreed.m in Sources */,
+				0C19C05B2295E14F00FCE9E4 /* AJWSubBreed.m in Sources */,
 				0C19C0412295DFBB00FCE9E4 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
