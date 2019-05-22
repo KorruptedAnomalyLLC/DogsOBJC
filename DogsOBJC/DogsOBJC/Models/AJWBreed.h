@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AJWBreed : NSObject
 
-@property (nonatomic, copy, readonly)NSString *Name;
-@property (nonatomic, copy, readonly)NSArray *SubBreeds;
-@property (nonatomic, copy, readonly)NSArray * ImageURLs;
+@property (nonatomic, copy, readonly)NSString *name;
+@property (nonatomic, copy, readonly)NSArray *subBreeds;
+@property (nonatomic, copy, readonly)NSArray * imageURLs;
 
 
 //  Initialzation

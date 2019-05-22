@@ -12,8 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface AJWSubBreed : NSObject
 
-@property (nonatomic, copy, readonly)NSString *Name;
-@property (nonatomic, copy, readonly)NSArray * ImageURLs;
+@property (nonatomic, copy, readonly)NSString *name;
+@property (nonatomic, copy, readonly)NSArray *imageURLs;
 
 // initializer
 -(instancetype)initWithName:(NSString *)name imageURLs:(NSArray *)imageURLs;
